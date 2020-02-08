@@ -73,3 +73,22 @@ button {
     color: white;
     padding: 10px;
 }
+
+#message-one {
+    font-weight: bold;
+}
+
+#message-two {
+    color: grey;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#message-three {
+    font-style: italic;
+}
+
+.temperature {
+    text-align: center;
+}
