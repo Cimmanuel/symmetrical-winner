@@ -30,6 +30,22 @@ header a {
     text-decoration: none;
 }
 
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+p a {
+    color: #0c0b0b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #6b6969;
+}
+
 footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
@@ -38,12 +54,16 @@ footer {
 }
 
 .portrait {
-    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
 }
 
 input {
     border: 1px solid #cccccc;
     padding: 10px;
+    width: 50%;
 }
 
 button {
